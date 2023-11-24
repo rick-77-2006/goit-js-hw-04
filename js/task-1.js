@@ -1,20 +1,13 @@
 function isEnoughCapacity(products, containerSize) {
 
-// function checkStorage(available, ordered) {
   let message;
 
-  // var available = 200;
-  // var ordered = 50;
-// if (ordered > available)
 if (products > containerSize)
-  /*if ((ordered == 130) || (available == 100) ||
-    (ordered == 180) || (available == 150))*/
   {
   message = "Не достаточно местав в контейнере!";
 }else{
   message = "Места в контейнере достаточно.";
 }
-  // Change code above this line
   return message;
 }
 
