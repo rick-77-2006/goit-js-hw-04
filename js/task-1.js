@@ -1,5 +1,4 @@
 function isEnoughCapacity(products, containerSize) {
-
   let message;
 
 if (products > containerSize)
