@@ -1,7 +1,5 @@
 function isEnoughCapacity(products, containerSize) {
-
   let message;
-
 if (products > containerSize)
   {
   message = "Не достаточно местав в контейнере!";
@@ -10,8 +8,6 @@ if (products > containerSize)
 }
   return message;
 }
-
-
 
 console.log(
   isEnoughCapacity({ apples: 2, grapes: 3, carrots: 1 }, 8)
