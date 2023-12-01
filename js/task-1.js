@@ -16,9 +16,6 @@ function foo() {
   }
 }
 
-
-
-
 // function isEnoughCapacity(products, containerSize) {
 //   let message;
   
