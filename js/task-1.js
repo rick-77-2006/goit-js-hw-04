@@ -1,5 +1,6 @@
 function isEnoughCapacity(products, containerSize) {
   let message;
+  
 if (products > containerSize)
   {
   message = "Не достаточно местав в контейнере!";
